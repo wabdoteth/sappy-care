@@ -1,0 +1,11 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@sappy/shared/*": ["../../packages/shared/src/*"]
+    },
+    "types": ["nativewind/types"]
+  }
+}
